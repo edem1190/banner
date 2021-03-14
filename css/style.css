@@ -1,0 +1,49 @@
+body{
+    background-image: url("https://tec.mx/sites/default/files/styles/header_full/public/2020-03/drones-futuro-por-expertos-del-tec-monterrey.jpg?h=920929c4&itok=fSc85wO1");
+    margin: 100px;
+    width: 100px;
+}
+
+.head{
+    color: tomato;
+    cursor: pointer;
+}
+.medidas{
+    width: 600px;
+}
+
+.titulo{
+    color: white;
+    display: inline;
+    height: 40px;
+    width: 80%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600px;
+    font-size: 50px;
+}
+
+.boton{
+    background-color: darkgrey;
+    color:brown;
+    text-shadow: 0 1px rgb(47, 47, 46);
+    border-radius: 10px 10px;
+    box-shadow: 0 1px 1px;
+    display: inline-block;
+    padding: 10px 10px ;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.boton-fondo{
+    background-color: white ;
+}
+ 
+.boton-fondo:hover{
+    background-color: darkgray;
+}
+.boton-fondo:active{
+    background-color: darkgrey;
+}
+
+
+
