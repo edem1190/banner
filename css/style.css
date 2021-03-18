@@ -8,14 +8,19 @@ body{
     color: tomato;
     cursor: pointer;
 }
+
+.head h2:hover{
+    transform:translateX(70PX)
+}
 .medidas{
     width: 600px;
+    height: 100vh;
 }
 
 .titulo{
     color: white;
     display: inline;
-    height: 40px;
+    height: 100vh;
     width: 80%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 600px;
@@ -34,7 +39,7 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.boton-fondo{
+/*.boton-fondo{
     background-color: white ;
 }
  
@@ -42,8 +47,14 @@ body{
     background-color: darkgray;
 }
 .boton-fondo:active{
-    background-color: darkgrey;
-}
+    background-color: green;
+}*/
 
+#boton{
+    transition: 1s;
+}
+#boton:hover{
+    transform: translateX(40px);
+}
 
 
